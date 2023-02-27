@@ -187,7 +187,7 @@
                 <article>
                     <img src="assets/service-1.png" alt="article 1">
                     <div class="body">
-                        <h3>Hole 1</h3>
+                        <h3>Hole 2</h3>
                         <div class="right">
                             <div>
                                 <span>Par</span><span>5</span>
@@ -201,7 +201,7 @@
                 <article>
                     <img src="assets/service-1.png" alt="article 1">
                     <div class="body">
-                        <h3>Hole 1</h3>
+                        <h3>Hole 3</h3>
                         <div class="right">
                             <div>
                                 <span>Par</span><span>5</span>
@@ -215,6 +215,8 @@
             </div>
             <div class="footer">
                 <div class="paging-group">
+                    <div class="circle"></div>
+                    <div class="circle"></div>
                     <div class="circle"></div>
                     <div class="circle"></div>
                     <div class="circle"></div>
@@ -236,7 +238,7 @@
     <!-- FOOTER -->
     <footer class="container decoration-container">
         <div>
-            <img src="assets/logo-footer.png" alt="footer logo">
+            <img class="image-logo" src="assets/logo-footer.png" alt="footer logo">
             <h1>Bukit Darmo Golf</h1>
             <p><span><img src="assets/flag.svg"></span> Jl. Bukit Darmo Golf Block G-2 Surabaya</p>
             <p><span><img src="assets/mail.svg"></span> bdgsby@bukitdarmogolf.com</p>

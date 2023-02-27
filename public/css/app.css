@@ -129,6 +129,7 @@ main > section .title p {
   font-size: 40px;
   line-height: 63px;
   letter-spacing: -0.02em;
+  font-weight: 700;
 }
 
 .about-us {
@@ -336,6 +337,10 @@ footer {
   background-color: rgb(200, 151, 56);
   padding-block: 61px;
   color: #FFFFFF;
+}
+
+footer .image-logo {
+  margin-bottom: 25px;
 }
 
 footer h1 {

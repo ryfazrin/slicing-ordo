@@ -150,6 +150,7 @@ main > section {
       font-size: 40px;
       line-height: 63px;
       letter-spacing: -0.02em;
+      font-weight: 700;
     }
   }
 }
@@ -361,6 +362,10 @@ footer {
   background-color: $secondary-color;
   padding-block: 61px;
   color: $white-color;
+
+  .image-logo {
+    margin-bottom: 25px;
+  }
   
   h1 {
     @include reset-font;
