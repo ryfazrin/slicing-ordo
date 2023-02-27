@@ -3,6 +3,7 @@ $dark-color: rgba(105, 120, 123, 0.56);
 $primary-color: rgba(60, 164, 170, 1);
 $secondary-color: rgba(200, 151, 56, 1);
 $disable-color: #AAAAAA;
+$grey-font: rgba(140, 140, 140, 1);
 
 // BASIC
 
@@ -29,6 +30,10 @@ $disable-color: #AAAAAA;
 .btn {
   @include font-18;
   padding: 12px 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 12px;
 }
 
 .btn-primary {
@@ -112,5 +117,48 @@ $disable-color: #AAAAAA;
     font-weight: 600;
     line-height: 23px;
     border-radius: 10px;
+  }
+}
+
+// ABOUT US
+.about-us {
+  background: #F5FAFA;
+}
+
+section {
+  padding-top: 100px;
+
+  .title {
+    text-align: center;
+    text-transform: uppercase;
+    h2 {
+      @include reset-font;
+      color: $primary-color;
+      font-size: 35px;
+      font-weight: 700;
+    }
+    p {
+      @include reset-font;
+      color: $secondary-color;
+      font-size: 40px;
+      line-height: 63px;
+      letter-spacing: -0.02em;
+    }
+  }
+
+  .body {
+    display: flex;
+    align-items: center;
+    padding-block: 60px 110px;
+
+    p {
+      color: $grey-font;
+      font-family: 'Poppins';
+      font-style: normal;
+      text-align: justify;
+      font-weight: 400;
+      font-size: 21px;
+      line-height: 37px;
+    }
   }
 }

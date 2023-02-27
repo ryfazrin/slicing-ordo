@@ -8,7 +8,7 @@
     <title>Laravel</title>
 
     <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit&family=Poppins&display=swap" rel="stylesheet">
 
     <!-- Styles -->
     <link href="/css/normalize.css" rel="stylesheet">
@@ -57,8 +57,12 @@
             <p class="text-3">Bukit Darmo Golf welcomes you to world of fine golfing on one of the most challenging courses in Asia
                 designed by Jack Nicklaus I</p>
             <div class="btn-group-social">
-                <button class="btn btn-social btn-dark" type="button">Our Service</button>
-                <button class="btn btn-social btn-primary" type="button">Contact Us</button>
+                <button class="btn btn-social btn-dark" type="button">
+                    <span><img src="assets/service.svg" alt=""></span> Our Service
+                </button>
+                <button class="btn btn-social btn-primary" type="button">
+                    <span><img src="assets/phone.svg" alt=""></span> Contact Us
+                </button>
             </div>
         </div>
     </header>
@@ -66,14 +70,14 @@
     <!-- MAIN -->
     <main>
         <!-- ABOUT US -->
-        <section>
+        <section class="about-us">
             <header class="title">
                 <h2>About Us</h2>
                 <p>bukit Darmo Golf</p>
             </header>
-            <div class="body">
+            <div class="body container">
                 <figure>
-                    <img src="" alt="about us">
+                    <img src="assets/about-us.png" alt="about us">
                 </figure>
                 <p>Strategically located at the intersection of Jalan Mayjend Sungkono and the toll road. Bukit Darmo
                     Golf Surabaya is easyliy accessible. It's just 10 minutes from Surabaya city centre. Bukit Darmo
@@ -113,7 +117,7 @@
 
         <!-- HOLE & SPACES -->
         <section>
-            <header class="title">
+            <div>
                 <div>
                     <h2>Holes & spaces</h2>
                     <p>We have 18 holes in Bukit Darmo Course that offers a lot of variety to give our members and guests a unique experience at every hole.</p>
@@ -121,7 +125,7 @@
                 <div>
                     <button type="button">Contact Us</button>
                 </div>
-            </header>
+            </div>
             <div class="body">
                 <!-- ARTICLES with IMAGE background -->
                 <article>
