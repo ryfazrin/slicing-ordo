@@ -7,6 +7,8 @@
   font-size: 18px;
   margin: 0;
   padding: 0;
+  width: -moz-fit-content;
+  width: fit-content;
   padding: 12px 20px;
   cursor: pointer;
   display: flex;
@@ -21,6 +23,13 @@
 
 .btn-dark {
   background-color: rgba(105, 120, 123, 0.56);
+}
+
+.btn-secondary {
+  color: #FFFFFF;
+  background: rgb(200, 151, 56);
+  box-shadow: 0px 7.50947px 37.2px 4px rgba(231, 231, 231, 0.99);
+  border-radius: 11px;
 }
 
 .header {
@@ -92,11 +101,11 @@
 }
 
 main > section {
-  padding-top: 100px;
+  padding-block: 100px;
 }
 
 main > section .body {
-  padding-block: 60px 110px;
+  padding-top: 60px;
 }
 
 main > section .title {
@@ -184,5 +193,36 @@ main > section .title p {
 
 .service .body article a span img {
   width: 24px;
+}
+
+.browse-our-service {
+  background: #F5FAFA;
+  display: flex;
+  gap: 50px;
+}
+
+.browse-our-service .desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.browse-our-service h2 {
+  margin: 0;
+  padding: 0;
+  color: rgb(60, 164, 170);
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.browse-our-service p {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 35px;
+  color: #848179;
+}
+
+.browse-our-service .img-side {
+  width: 634px;
 }
 

@@ -29,6 +29,7 @@ $grey-font: rgba(140, 140, 140, 1);
 
 .btn {
   @include font-18;
+  width: fit-content;
   padding: 12px 20px;
   cursor: pointer;
   display: flex;
@@ -43,6 +44,13 @@ $grey-font: rgba(140, 140, 140, 1);
 
 .btn-dark {
   background-color: $dark-color;
+}
+
+.btn-secondary {
+  color: $white-color;
+  background: $secondary-color;
+  box-shadow: 0px 7.50947px 37.2px 4px rgba(231, 231, 231, 0.99);
+  border-radius: 11px;
 }
 
 // CUSTOM
@@ -121,10 +129,10 @@ $grey-font: rgba(140, 140, 140, 1);
 }
 
 main > section {
-  padding-top: 100px;
+  padding-block: 100px;
   
   .body {
-    padding-block: 60px 110px;
+    padding-top: 60px;
   }
 
   .title {
@@ -210,5 +218,35 @@ main > section {
         }
       }
     }
+  }
+}
+
+.browse-our-service {
+  background: #F5FAFA;
+  display: flex;
+  gap: 50px;
+
+  .desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  h2 {
+    @include reset-font;
+    color: $primary-color;
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+  p {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 35px;
+    color: #848179;
+  }
+
+  .img-side {
+    width: 634px;
   }
 }

@@ -137,16 +137,19 @@
             </div>
         </section>
 
-        <!-- OUR SERVICE -->
-        <section>
-            <div>
+        <!-- BROWSE OUR SERVICE -->
+        <section class="browse-our-service container">
+            <div class="desc">
                 <h2>BROWSE OUR SERVICE</h2>
                 <p>Bukit Darmo Golf is dedicated to improving your golf game by designing various easy to understand golf training programs within the exellent practice facilities.</p>
-                <button type="button">Contact Us</button>
+                <button class="btn btn-secondary" type="button">
+                    Contact Us <span><img src="assets/arrow-right-white.svg"></span>
+                </button>
             </div>
-            <div>
-                <img src="" alt="">
-            </div>
+            <img class="img-side" src="assets/frame-2.png" alt="">
+            <!-- <div class="image-group">
+                
+            </div> -->
         </section>
 
         <!-- HOLE & SPACES -->
