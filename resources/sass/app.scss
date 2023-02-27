@@ -353,3 +353,27 @@ main > section {
     }
   }
 }
+
+footer {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  background-color: $secondary-color;
+  padding-block: 61px;
+  color: $white-color;
+  
+  h1 {
+    @include reset-font;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 20px;
+    padding-bottom: 15px;
+  }
+  p {
+    @include reset-font;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 25px;
+    padding-bottom: 15px;
+  }
+}

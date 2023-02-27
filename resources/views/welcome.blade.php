@@ -228,13 +228,13 @@
     </main>
 
     <!-- FOOTER -->
-    <footer>
+    <footer class="container">
         <div>
-            <img src="" alt="footer logo">
+            <img src="assets/logo-footer.png" alt="footer logo">
             <h1>Bukit Darmo Golf</h1>
-            <p><span>Logo</span> Jl. Bukit Darmo Golf Block G-2 Surabaya</p>
-            <p><span>Logo</span> bdgsby@bukitdarmogolf.com</p>
-            <p><span>Logo</span> (031) 731 5555 - (031) 732 5555</p>
+            <p><span><img src="assets/flag.svg"></span> Jl. Bukit Darmo Golf Block G-2 Surabaya</p>
+            <p><span><img src="assets/mail.svg"></span> bdgsby@bukitdarmogolf.com</p>
+            <p><span><img src="assets/call.svg"></span> (031) 731 5555 - (031) 732 5555</p>
         </div>
         <div>
             <p>&copy; Bukit Darmo Golf 2022</p>

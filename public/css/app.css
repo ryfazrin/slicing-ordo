@@ -329,3 +329,30 @@ main > section .title p {
   border-radius: 20px;
 }
 
+footer {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  background-color: rgb(200, 151, 56);
+  padding-block: 61px;
+  color: #FFFFFF;
+}
+
+footer h1 {
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 20px;
+  padding-bottom: 15px;
+}
+
+footer p {
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 25px;
+  padding-bottom: 15px;
+}
+
