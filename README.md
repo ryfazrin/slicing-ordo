@@ -15,3 +15,6 @@ Create new command again
 ```
 npm run watch
 ```
+
+## Screenshot
+![screenshot](./screenshot.png)
