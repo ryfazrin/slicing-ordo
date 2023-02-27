@@ -356,3 +356,46 @@ footer p {
   padding-bottom: 15px;
 }
 
+.decoration-container {
+  position: relative;
+}
+
+.decoration {
+  position: absolute;
+}
+
+.ellipse-886 {
+  left: 0;
+  bottom: 121px;
+}
+
+.ellipse-887 {
+  right: 0;
+  bottom: 231px;
+}
+
+.ellipse-888 {
+  right: 91px;
+  bottom: -43px;
+}
+
+.ellipse-889 {
+  right: 68px;
+  bottom: 84.38px;
+}
+
+.ellipse-890 {
+  right: 75px;
+  bottom: 174.38px;
+}
+
+.cut {
+  left: 494px;
+  bottom: 0;
+}
+
+.white-ball {
+  right: 0;
+  bottom: 0;
+}
+

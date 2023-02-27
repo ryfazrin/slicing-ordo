@@ -21,7 +21,7 @@
     </style>
 </head>
 
-<body class="antialiased">
+<body class="antialiased decoration-container">
     <header class="header container">
         <!-- NAVBAR -->
         <nav>
@@ -70,7 +70,7 @@
     <!-- MAIN -->
     <main>
         <!-- ABOUT US -->
-        <section class="about-us">
+        <section class="about-us decoration-container">
             <header class="title">
                 <h2>About Us</h2>
                 <p>bukit Darmo Golf</p>
@@ -84,10 +84,14 @@
                     Golf welcomes you to world of fine golfing on one of the most challenging courses in Asia designed
                     by Jack Nicklaus II.</p>
             </div>
+
+            <img class="decoration ellipse-888" src="assets/decoration/ellipse-888.svg">
+            <img class="decoration ellipse-889" src="assets/decoration/ellipse-889.svg">
+            <img class="decoration ellipse-890" src="assets/decoration/ellipse-890.svg">
         </section>
 
         <!-- SERVICE -->
-        <section class="service">
+        <section class="service decoration-container">
             <header class="title">
                 <h2>Service</h2>
                 <p>What We Can Provide</p>
@@ -135,6 +139,7 @@
                     </div>
                 </article>
             </div>
+            <img class="decoration ellipse-886" src="assets/decoration/ellipse-886.svg">
         </section>
 
         <!-- BROWSE OUR SERVICE -->
@@ -153,7 +158,7 @@
         </section>
 
         <!-- HOLE & SPACES -->
-        <section class="hole-spaces container">
+        <section class="hole-spaces container decoration-container">
             <div class="header">
                 <div>
                     <h2>Holes & spaces</h2>
@@ -224,11 +229,12 @@
                     </button>
                 </div>
             </div>
+            <img class="decoration ellipse-887" src="assets/decoration/ellipse-887.svg">
         </section>
     </main>
 
     <!-- FOOTER -->
-    <footer class="container">
+    <footer class="container decoration-container">
         <div>
             <img src="assets/logo-footer.png" alt="footer logo">
             <h1>Bukit Darmo Golf</h1>
@@ -239,6 +245,8 @@
         <div>
             <p>&copy; Bukit Darmo Golf 2022</p>
         </div>
+        <img class="decoration cut" src="assets/decoration/cut.svg">
+        <img class="decoration white-ball" src="assets/decoration/white-ball.png">
     </footer>
 </body>
 
