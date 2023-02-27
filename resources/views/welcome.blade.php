@@ -140,7 +140,7 @@
         <!-- BROWSE OUR SERVICE -->
         <section class="browse-our-service container">
             <div class="desc">
-                <h2>BROWSE OUR SERVICE</h2>
+                <h2>Browse our service</h2>
                 <p>Bukit Darmo Golf is dedicated to improving your golf game by designing various easy to understand golf training programs within the exellent practice facilities.</p>
                 <button class="btn btn-secondary" type="button">
                     Contact Us <span><img src="assets/arrow-right-white.svg"></span>
@@ -153,36 +153,75 @@
         </section>
 
         <!-- HOLE & SPACES -->
-        <section>
-            <div>
+        <section class="hole-spaces container">
+            <div class="header">
                 <div>
                     <h2>Holes & spaces</h2>
-                    <p>We have 18 holes in Bukit Darmo Course that offers a lot of variety to give our members and guests a unique experience at every hole.</p>
+                    <p>We have 18 holes in Bukit Darmo Course that offers a lot of variety to <br> give our members and guests a unique experience at every hole.</p>
                 </div>
-                <div>
-                    <button type="button">Contact Us</button>
-                </div>
+                <button class="btn btn-secondary" type="button">
+                    View All Holes
+                </button>
             </div>
             <div class="body">
                 <!-- ARTICLES with IMAGE background -->
                 <article>
-                    <img src="" alt="article 1">
+                    <img src="assets/service-1.png" alt="article 1">
                     <div class="body">
                         <h3>Hole 1</h3>
-                        <div>
-                            <span>Par</span><span>5</span>
+                        <div class="right">
+                            <div>
+                                <span>Par</span><span>5</span>
+                            </div>
+                            <div>
+                                <span>Pace</span><span>18</span>
+                            </div>
                         </div>
-                        <div>
-                            <span>Par</span><span>5</span>
+                    </div>
+                </article>
+                <article>
+                    <img src="assets/service-1.png" alt="article 1">
+                    <div class="body">
+                        <h3>Hole 1</h3>
+                        <div class="right">
+                            <div>
+                                <span>Par</span><span>5</span>
+                            </div>
+                            <div>
+                                <span>Pace</span><span>18</span>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <article>
+                    <img src="assets/service-1.png" alt="article 1">
+                    <div class="body">
+                        <h3>Hole 1</h3>
+                        <div class="right">
+                            <div>
+                                <span>Par</span><span>5</span>
+                            </div>
+                            <div>
+                                <span>Pace</span><span>18</span>
+                            </div>
                         </div>
                     </div>
                 </article>
             </div>
             <div class="footer">
-                <div>dot paging</div>
-                <div>
-                    <button type="button">Previus</button>
-                    <button type="button">Next</button>
+                <div class="paging-group">
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                    <div class="circle"></div>
+                </div>
+                <div class="btn-group">
+                    <button class="btn btn-secondary" type="button">
+                        <span><img src="assets/arrow-left-white.svg"></span>
+                    </button>
+                    <button class="btn btn-secondary" type="button">
+                        <span><img src="assets/arrow-right-white-2.svg"></span>
+                    </button>
                 </div>
             </div>
         </section>
@@ -198,7 +237,7 @@
             <p><span>Logo</span> (031) 731 5555 - (031) 732 5555</p>
         </div>
         <div>
-            <p>© Bukit Darmo Golf 2022</p>
+            <p>&copy; Bukit Darmo Golf 2022</p>
         </div>
     </footer>
 </body>

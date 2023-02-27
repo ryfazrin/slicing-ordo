@@ -51,11 +51,11 @@ $grey-font: rgba(140, 140, 140, 1);
   background: $secondary-color;
   box-shadow: 0px 7.50947px 37.2px 4px rgba(231, 231, 231, 0.99);
   border-radius: 11px;
+  padding: 12px 30px;
 }
 
 // CUSTOM
-
-.header {
+body > header {
   background: 
     linear-gradient(
       rgba(67, 87, 91, 0.54),
@@ -237,6 +237,7 @@ main > section {
     color: $primary-color;
     font-size: 30px;
     font-weight: 700;
+    text-transform: uppercase;
   }
 
   p {
@@ -248,5 +249,107 @@ main > section {
 
   .img-side {
     width: 634px;
+  }
+}
+
+.hole-spaces {
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    h2 {
+      @include reset-font;
+      color: $primary-color;
+      font-size: 30px;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+
+    p {
+      font-weight: 300;
+      font-size: 20px;
+      line-height: 35px;
+      color: rgba(183, 184, 184, 1);
+    }
+  }
+
+  .body {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+
+    article {
+      // background: 
+      //   linear-gradient(179.94deg, rgba(255, 255, 255, 0) 0.05%, rgba(255, 255, 255, 0.7) 99.95%),
+      //   url('../../public/assets/service-1.png');
+      position: relative;
+      
+      img {
+        border-radius: 20px;
+      }
+      .body {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: rgba(255, 255, 255, 0.9);
+        border-radius: 20px;
+        padding: 16px 32px 16px 18px;
+        margin: 16px;
+        font-weight: 600;
+
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        left: 0;
+
+        h3 {
+          @include reset-font;
+          color: $secondary-color;
+          font-size: 24px;
+          line-height: 28px;
+        }
+
+        .right div {
+          display: flex;
+          justify-content: space-between;
+          gap: 10px;
+
+          & :nth-child(1) {
+            color: $primary-color;
+          }
+        }
+      }
+    }
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-between;
+
+    .paging-group {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      
+      .circle {
+        width: 14.44px;
+        height: 14.44px;  
+        background-color: rgba(232, 232, 232, 1);
+        border-radius: 100%;
+
+        &:nth-child(2) { background-color: $secondary-color; }
+      }
+    }
+
+    .btn-group {
+      display: flex;
+      gap: 20px;
+
+      .btn-secondary {
+        padding: 10px;
+        border-radius: 20px;
+      }
+    }
   }
 }
