@@ -87,18 +87,52 @@
         </section>
 
         <!-- SERVICE -->
-        <section>
+        <section class="service">
             <header class="title">
                 <h2>Service</h2>
                 <p>What We Can Provide</p>
             </header>
-            <div class="body">
+            <div class="body container">
                 <!-- ARTICLES -->
                 <article>
-                    <img src="" alt="article 1">
-                    <h3>Driving Range</h3>
-                    <p>We welcome you to join lessons from Beginner to Advance</p>
-                    <a href="#">Get More info</a>
+                    <img src="assets/service-1.png" alt="service 1">
+                    <div class="body">
+                        <h3>Driving Range</h3>
+                        <p>We welcome you to join lessons from Beginner to Advance</p>
+                        <a href="#">
+                            Get More info <span><img src="assets/arrow-right.svg"></span>
+                        </a>
+                    </div>
+                </article>
+                <article>
+                    <img src="assets/service-1.png" alt="service 1">
+                    <div class="body">
+                        <h3>Driving Range</h3>
+                        <p>We welcome you to join lessons from Beginner to Advance</p>
+                        <a href="#">
+                            Get More info <span><img src="assets/arrow-right.svg"></span>
+                        </a>
+                    </div>
+                </article>
+                <article>
+                    <img src="assets/service-1.png" alt="service 1">
+                    <div class="body">
+                        <h3>Driving Range</h3>
+                        <p>We welcome you to join lessons from Beginner to Advance</p>
+                        <a href="#">
+                            Get More info <span><img src="assets/arrow-right.svg"></span>
+                        </a>
+                    </div>
+                </article>
+                <article>
+                    <img src="assets/service-1.png" alt="service 1">
+                    <div class="body">
+                        <h3>Driving Range</h3>
+                        <p>We welcome you to join lessons from Beginner to Advance</p>
+                        <a href="#">
+                            Get More info <span><img src="assets/arrow-right.svg"></span>
+                        </a>
+                    </div>
                 </article>
             </div>
         </section>

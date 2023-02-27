@@ -91,20 +91,20 @@
   border-radius: 10px;
 }
 
-.about-us {
-  background: #F5FAFA;
-}
-
-section {
+main > section {
   padding-top: 100px;
 }
 
-section .title {
+main > section .body {
+  padding-block: 60px 110px;
+}
+
+main > section .title {
   text-align: center;
   text-transform: uppercase;
 }
 
-section .title h2 {
+main > section .title h2 {
   margin: 0;
   padding: 0;
   color: rgb(60, 164, 170);
@@ -112,7 +112,7 @@ section .title h2 {
   font-weight: 700;
 }
 
-section .title p {
+main > section .title p {
   margin: 0;
   padding: 0;
   color: rgb(200, 151, 56);
@@ -121,13 +121,16 @@ section .title p {
   letter-spacing: -0.02em;
 }
 
-section .body {
-  display: flex;
-  align-items: center;
-  padding-block: 60px 110px;
+.about-us {
+  background: #F5FAFA;
 }
 
-section .body p {
+.about-us .body {
+  display: flex;
+  align-items: center;
+}
+
+.about-us .body p {
   color: rgb(140, 140, 140);
   font-family: "Poppins";
   font-style: normal;
@@ -135,5 +138,51 @@ section .body p {
   font-weight: 400;
   font-size: 21px;
   line-height: 37px;
+}
+
+.service .body {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.service .body article {
+  width: 280px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 28px 2px rgba(157, 139, 139, 0.25);
+  border-radius: 4px;
+}
+
+.service .body article .body {
+  display: block;
+  padding: 18px;
+}
+
+.service .body article img {
+  border-radius: 4px 4px 0 0;
+  width: 100%;
+}
+
+.service .body article h3 {
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+  font-size: 19px;
+}
+
+.service .body article p {
+  color: rgb(173, 184, 185);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.service .body article a {
+  display: flex;
+  color: rgb(200, 151, 56);
+}
+
+.service .body article a span img {
+  width: 24px;
 }
 
