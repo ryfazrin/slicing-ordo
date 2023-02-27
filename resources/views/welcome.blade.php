@@ -44,20 +44,22 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#">About US</a>
                 </li>
-                <li class="nav-item">
-                    <a class="" href="#">ID</a> | <a class="" href="#">EN</a>
+                <li class="nav-item lang">
+                    <a class="disabled" href="#">ID</a> | <a href="#">EN</a>
                 </li>
             </ul>
         </nav>
 
         <!-- HERO -->
         <div class="hero">
-            <p>A Nicklaus City Golf Course</p>
-            <h1>Elevate your Game</h1>
-            <p>Bukit Darmo Golf welcomes you to world of fine golfing on one of the most challenging courses in Asia
+            <p class="text-1">A Nicklaus City Golf Course</p>
+            <h1 class="text-2">Elevate your Game</h1>
+            <p class="text-3">Bukit Darmo Golf welcomes you to world of fine golfing on one of the most challenging courses in Asia
                 designed by Jack Nicklaus I</p>
-            <button type="button">Our Service</button>
-            <button type="button">Contact Us</button>
+            <div class="btn-group-social">
+                <button class="btn btn-social btn-dark" type="button">Our Service</button>
+                <button class="btn btn-social btn-primary" type="button">Contact Us</button>
+            </div>
         </div>
     </header>
 

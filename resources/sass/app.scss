@@ -1,12 +1,46 @@
 $white-color: #FFFFFF;
+$dark-color: rgba(105, 120, 123, 0.56);
 $primary-color: rgba(60, 164, 170, 1);
 $secondary-color: rgba(200, 151, 56, 1);
+$disable-color: #AAAAAA;
 
 // BASIC
+
 .container {
   padding-inline: 10%;
   margin-inline: auto;
 }
+
+@mixin reset-font {
+  margin: 0;
+  padding: 0;
+}
+
+@mixin font-18 {
+  font-size: 18px;
+  @include reset-font;
+}
+
+@mixin font-56 {
+  font-size: 56px;
+  @include reset-font;
+}
+
+.btn {
+  @include font-18;
+  padding: 12px 20px;
+}
+
+.btn-primary {
+  background-color: $primary-color;
+  box-shadow: 0px 7.50947px 37.2px 4px rgba(0, 79, 84, 0.68);
+}
+
+.btn-dark {
+  background-color: $dark-color;
+}
+
+// CUSTOM
 
 .header {
   background: 
@@ -23,21 +57,60 @@ $secondary-color: rgba(200, 151, 56, 1);
     ),
     url('../../public/assets/hero.png');
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-size: cover;
   height: 100vh;
   color: $white-color;
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1.813rem;
+    
+    .navbar-nav {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      gap: 3.125rem;
+
+      .lang {
+        padding: 6px 15px;
+        border: 1px solid $disable-color;
+        border-radius: 18px;
+        .disabled {
+          color: $disable-color;
+        }
+      }
+    }
+  }
+
+  .hero {
+    height: 85vh;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .text-1, .text-3 {
+      @include font-18;
+    }
+
+    .text-2 {
+      @include font-56;
+    }
+  }
 }
 
-nav {
+.btn-group-social {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-top: 1.813rem;
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    gap: 3.125rem;
+  margin-top: 27px;
+  gap: 21px;
+  .btn-social {
+    color: $white-color;
+    font-weight: 600;
+    line-height: 23px;
+    border-radius: 10px;
   }
 }
