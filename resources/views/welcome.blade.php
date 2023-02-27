@@ -109,30 +109,30 @@
                     </div>
                 </article>
                 <article>
-                    <img src="assets/service-1.png" alt="service 1">
+                    <img src="assets/service-2.png" alt="service 1">
                     <div class="body">
-                        <h3>Driving Range</h3>
-                        <p>We welcome you to join lessons from Beginner to Advance</p>
+                        <h3>Special Event</h3>
+                        <p>Celebrate any special occasion or any other activities with us</p>
                         <a href="#">
                             Get More info <span><img src="assets/arrow-right.svg"></span>
                         </a>
                     </div>
                 </article>
                 <article>
-                    <img src="assets/service-1.png" alt="service 1">
+                    <img src="assets/service-3.png" alt="service 1">
                     <div class="body">
-                        <h3>Driving Range</h3>
-                        <p>We welcome you to join lessons from Beginner to Advance</p>
+                        <h3>Restaurant</h3>
+                        <p>We offers a wide variety of foods at the Golfer’s Terrace Restaurant</p>
                         <a href="#">
                             Get More info <span><img src="assets/arrow-right.svg"></span>
                         </a>
                     </div>
                 </article>
                 <article>
-                    <img src="assets/service-1.png" alt="service 1">
+                    <img src="assets/service-4.png" alt="service 1">
                     <div class="body">
-                        <h3>Driving Range</h3>
-                        <p>We welcome you to join lessons from Beginner to Advance</p>
+                        <h3>VIP Room</h3>
+                        <p>Seminar rooms are available everyday to cater to all kind of events</p>
                         <a href="#">
                             Get More info <span><img src="assets/arrow-right.svg"></span>
                         </a>

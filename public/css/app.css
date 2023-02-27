@@ -301,6 +301,7 @@ main > section .title p {
 .hole-spaces .footer {
   display: flex;
   justify-content: space-between;
+  margin-top: 35px;
 }
 
 .hole-spaces .footer .paging-group {
