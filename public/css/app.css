@@ -1,4 +1,28 @@
-* {
-  color: blue;
+.container {
+  padding-inline: 10%;
+  margin-inline: auto;
+}
+
+.header {
+  background: linear-gradient(rgba(67, 87, 91, 0.54), rgba(68, 86, 89, 0.04), rgba(255, 255, 255, 0)), linear-gradient(rgba(67, 87, 91, 0.9), rgba(68, 86, 89, 0.77), rgba(70, 83, 86, 0.51), rgba(255, 255, 255, 0)), url(/images/hero.png?f85e8403b14c62b542085c1c18e9fc1c);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  color: #FFFFFF;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1.813rem;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 3.125rem;
 }
 

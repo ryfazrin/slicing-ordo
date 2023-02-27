@@ -8,7 +8,7 @@
     <title>Laravel</title>
 
     <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
 
     <!-- Styles -->
     <link href="/css/normalize.css" rel="stylesheet">
@@ -16,13 +16,13 @@
 
     <style>
         body {
-            font-family: 'Nunito';
+            font-family: 'Outfit', sans-serif;
         }
     </style>
 </head>
 
 <body class="antialiased">
-    <header>
+    <header class="header container">
         <!-- NAVBAR -->
         <nav>
             <a class="navbar-brand" href="#">

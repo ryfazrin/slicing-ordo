@@ -1,3 +1,43 @@
-* {
-  color: blue;
+$white-color: #FFFFFF;
+$primary-color: rgba(60, 164, 170, 1);
+$secondary-color: rgba(200, 151, 56, 1);
+
+// BASIC
+.container {
+  padding-inline: 10%;
+  margin-inline: auto;
+}
+
+.header {
+  background: 
+    linear-gradient(
+      rgba(67, 87, 91, 0.54),
+      rgba(68, 86, 89, 0.04),
+      rgba(255, 255, 255, 0)
+    ),
+    linear-gradient( 
+      rgba(67, 87, 91, 0.9),
+      rgba(68, 86, 89, 0.77),
+      rgba(70, 83, 86, 0.51),
+      rgba(255, 255, 255, 0)
+    ),
+    url('../../public/assets/hero.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 100vh;
+  color: $white-color;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 1.813rem;
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 3.125rem;
+  }
 }
